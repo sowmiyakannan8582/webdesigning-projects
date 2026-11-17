@@ -1,0 +1,205 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/7.3.1/css/all.min.css" integrity="sha512-...==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+
+    
+<style>
+    *{
+    box-sizing: border-box;
+    margin: 0px;
+    padding: 0px;
+    }
+    .box{
+        /* border: 2px solid green; */
+        background-color:bisque;
+        width: 900px;
+        height: 855px;
+    }
+    nav{
+    display: flex;
+    /* border: 2px solid red; */
+    justify-content: space-between;
+    align-items: center;
+     height:90px;
+    background-color:salmon;
+}
+ul{
+    display: flex;
+    /* border: 2px solid yellow; */
+    width: 400;
+    justify-content: space-around;
+    list-style: none;
+    padding: 20px;
+    
+}
+nav ul li a{
+         /* border: 2px solid rgb(0, 255, 76); */
+         align-items: end;
+         justify-content: space-around;
+         padding: 20px;
+         color: brown;
+         text-decoration: none;
+}
+nav h1{
+    color: brown;
+}
+
+nav ul li a:hover{
+    text-decoration:none;
+    background-color:cornsilk;
+    color:brown;
+    border-radius: 15px;
+    padding:8px;
+
+}
+     img{
+        width: 200px;
+        height: 200px;
+        /* border: 2px solid black; */
+        margin: 10px;
+        
+     }
+     img:hover{
+        overflow:hidden ;
+        transform: scale(1.1);
+        /* transition-duration: 0.2s; */
+        border-radius: 50%;
+    }
+     .par{
+        display: flex;
+        /* border: 2px solid yellow; */
+        flex-direction: row;
+        flex-wrap: wrap;
+        width: 700px;
+        justify-content: center;
+        margin: auto;
+     }
+    .ch h3{
+        text-align: center;
+        color: brown;
+       
+    }
+    .footer{
+        background-color:salmon;
+        /* border: 2px solid red; */
+        display: flex;
+        /* margin-top: 20px; */
+        justify-content: space-around;
+        padding: 50px;
+        height: 250px;
+        text-align: center;
+    }
+    .about{
+        color: brown;
+        /* border: 2px solid orange; */
+        width: 280px;
+        height: 150px;
+        display: flex;
+        flex-direction: column;
+        justify-content: flex-start;
+         
+        align-items: flex-start;
+    }
+    .contact{
+        color: brown;
+        /* border: 2px solid yellow; */
+        width: 300px;
+        height: 150px;
+        display: flex;
+        flex-direction: column;
+        justify-content:space-between;
+        align-items: flex-start;
+    }
+    .icons{
+        color: brown;
+        display: flex;
+        justify-content: space-between;
+        /* border:2px solid green; */
+        width:150px;
+        padding:10px;
+     }
+   
+</style> 
+</head>
+<body>
+    <div class="box">
+    <nav>
+        <h1>Explore World</h1>
+        <ul>
+             <li><a href="./galleryflex.html">Home</a></li>
+            <li><a href="./destination.html">Destination</a></li>
+            <li><a href="./packages.html">Packages</a></li>
+            <li><a href="./contactus.html">Contact us</a></li>
+        </ul>
+    </nav>
+    <div class="par">
+ 
+        <div class="ch">
+            <img src="./imgs/beach tree.jpg" alt="">
+            <h3>Beach Tree</h3>
+        </div>
+        <div class="ch">
+            <img src="./imgs/chair in beach view.jpg" alt="">
+            <h3>Chair View</h3>
+        </div>
+        <div class="ch">
+            <img src="./imgs/beach house.jpg" alt="">
+            <h3>Beach House</h3>
+        </div>
+        <div class="ch">
+            <img src="./imgs/forest beach.jpg" alt="">
+            <h3>Forest</h3>
+        </div>
+        <div class="ch">
+            <img src="./imgs/maldives.jpg" alt="">
+            <h3>Maldives</h3>
+        </div>
+        <div class="ch">
+            <img src="./imgs/restaurent.jpg" alt="">
+            <h3>Food Court</h3>
+        </div>
+        <div class="ch">
+            <img src="./imgs/truck.jpg" alt="">
+            <h3>Travel</h3>
+        </div>
+        <div class="ch">
+            <img src="./imgs/forest.jpg" alt="">
+            <h3>Beach Forest</h3>
+        </div>
+        <div class="ch">
+            <img src="./imgs/beach swing.jpg" alt="">
+            <h3>Swing</h3>
+        </div>
+    </div>
+</div>
+    <div class="footer">
+        <div class="contact">
+            <h3><i class="fa-solid fa-users"></i>
+             Contact Us</h3>
+            <p><i class="fa-solid fa-location-dot"></i> Salem,TamilNadu</p>
+            <p><i class="fa-notdog-duo fa-solid fa-phone"></i> 93454-57112</p>
+            <p><i class="fa-solid fa-envelope"></i> exploreworld@gmail.com</p>
+        </div>
+    
+    <div class="about">
+        <h3>About Our Company</h3>
+        <p>Explore the world with us. Discover beautiful places
+            and enjoy your holidays with happy memories.
+        </p>
+        <h3>Follow us</h3>
+        <div class="icons">
+        <i class="fa-brands fa-square-instagram"></i>
+        <i class="fa-brands fa-square-facebook"></i>
+        <i class="fa-brands fa-square-twitter"></i>
+        </div>
+
+    </div>
+
+    
+    </div>
+</body>
+</html>

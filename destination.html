@@ -1,0 +1,203 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/7.3.1/css/all.min.css" integrity="sha512-...==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+    
+<style>
+     *{
+    box-sizing: border-box;
+    margin: 0px;
+    padding: 0px;
+    }
+    .box1{
+        /* border: 2px solid green; */
+        background-color:bisque;
+        width: 900px;
+        height:100%;
+    }
+    
+    nav{
+    display: flex;
+    /* border: 2px solid red; */
+    justify-content: space-between;
+    align-items: center;
+     height:90px;
+    background-color:salmon;
+}
+ul{
+    display: flex;
+    /* border: 2px solid yellow; */
+    width: 400;
+    justify-content: space-around;
+    list-style: none;
+    padding: 20px;
+    
+}
+nav ul li a{
+         /* border: 2px solid rgb(0, 255, 76); */
+         align-items: end;
+         justify-content: space-around;
+         padding: 20px;
+         color: brown;
+         text-decoration: none;
+}
+nav ul li a:hover{
+    text-decoration:none;
+    background-color:cornsilk;
+    color:brown;
+    border-radius: 15px;
+    padding:8px;
+
+}
+
+.pic{
+    /* border: 2px solid red; */
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    width: 900px;
+    justify-content: center;
+    margin:auto;
+}
+
+.pic img{
+    /* border: 2px solid orange; */
+    width: 400px;
+    height: 300px;
+    margin: 20px;
+}
+.pic img:hover{
+    overflow: hidden;
+    transform:scale(1.1);
+    transition-duration:1s;
+}
+
+.pic h3{
+    text-align: center;
+    margin-top: 20px;
+    color: brown;
+}
+.pic p{
+    text-align: center;
+    color: brown;
+}
+.footer{
+        background-color:salmon;
+        /* border: 2px solid red; */
+        display: flex;
+        margin-top: 25px;
+        justify-content: space-around;
+        padding: 50px;
+        height: 250px;
+        text-align: center;
+}
+.contact{
+     /* border: 2px solid yellow; */
+        width: 300px;
+        height: 150px;
+        display: flex;
+        flex-direction: column;
+        justify-content:space-between;
+        align-items:flex-start;
+        color: brown;
+
+}
+.about{
+     /* border: 2px solid orange; */
+        width: 280px;
+        height: 150px;
+        display: flex;
+        flex-direction: column;
+        justify-content:flex-start;
+        align-items: flex-start;
+        color: brown;
+
+}
+.icons{
+        display: flex;
+        justify-content: space-between;
+        /* border:2px solid green; */
+        width:150px;
+        padding:10px;
+        color: brown;
+     }
+</style>
+</head>
+<body>
+    <div class="box1">
+     <nav>
+        <h1>Explore World</h1>
+        <ul>
+             <li><a href="./galleryflex.html">Home</a></li>
+            <li><a href="./destination.html">Destination</a></li>
+            <li><a href="./packages.html">Packages</a></li>
+            <li><a href="./contactus.html">Contact us</a></li>
+        </ul>
+    </nav>
+
+    <div class="pic">
+        <h3>Discover beautiful places and make your Travel
+            dreams come true. Enjoy every journey with us!
+        </h3>
+        <div class="ch">
+            <img src="./imgs/maldives mmm.jpg" alt="">
+            <h3>Maldives</h3>
+            <p>Beautiful Beaches</p>
+        </div>
+        <div class="ch">
+            <img src="./imgs/ooty mmm.jpg" alt="">
+            <h3>Ooty</h3>
+            <p>Queen of Hill Stations</p>
+        </div>
+        <div class="ch">
+            <img src="./imgs/kerala boat house.webp" alt="">
+            <h3>Kerala</h3>
+            <p>God's own country</p>
+        </div>
+        <div class="ch">
+            <img src="./imgs/paris mmm.webp" alt="">
+            <h3>Paris</h3>
+            <p>City of Love</p>
+        </div>
+        <div class="ch">
+            <img src="./imgs/goa coconut tree mmm.jpg" alt="">
+            <h3>Goa</h3>
+            <p>Beach of Paradise</p>
+        </div>
+        <div class="ch">
+            <img src="./imgs/manali mmm.jpg" alt="">
+            <h3>Manali</h3>
+            <p>Mountain Beauty</p>
+        </div>
+       
+    </div>
+
+    <div class="footer">
+        <div class="contact">
+            <h3><i class="fa-solid fa-users"></i>
+             Contact Us</h3>
+            <p><i class="fa-solid fa-location-dot"></i> Salem,TamilNadu</p>
+            <p><i class="fa-notdog-duo fa-solid fa-phone"></i> 93454-57112</p>
+            <p><i class="fa-solid fa-envelope"></i> exploreworld@gmail.com</p>
+        </div>
+    
+    <div class="about">
+        <h3>About Our Company</h3>
+        <p>Explore the world with us. Discover beautiful places
+            and enjoy your holidays with happy memories.
+        </p>
+        <h3>Follow us</h3>
+        <div class="icons">
+        <i class="fa-brands fa-square-instagram"></i>
+        <i class="fa-brands fa-square-facebook"></i>
+        <i class="fa-brands fa-square-twitter"></i>
+        </div>
+    </div>
+
+    </div>
+    </div>
+</body>
+</html>
